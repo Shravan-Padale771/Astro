@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+}
+#root{
+  /* overflow-x: hidden; */
+}
+
+#astro {
+  animation: rotate ease-out 30s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  30% {
+    transform: translate(-20px, 50px) ;
+  }
+  50% {
+    transform: translate(0px, -10px) ;
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(360deg) ;
+  }
+}
+
+
+
+
